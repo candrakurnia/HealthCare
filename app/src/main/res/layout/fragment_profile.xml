@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context="fragment.ProfileFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/picture"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_editProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins"
+        android:text="Change Profile Picture"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/picture" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_editProfile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Candra Kurnia"
+                android:background="@drawable/ic_frame_text"
+                android:fontFamily="@font/poppins"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingStart="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="candrakurnia@gmail.com"
+                android:background="@drawable/ic_frame_text"
+                android:fontFamily="@font/poppins"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingStart="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KTP"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="3123213943867"
+                android:background="@drawable/ic_frame_text"
+                android:fontFamily="@font/poppins"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingStart="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KK"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="2132934324789"
+                android:background="@drawable/ic_frame_text"
+                android:fontFamily="@font/poppins"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingStart="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor Telepon"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="082319323893"
+                android:background="@drawable/ic_frame_text"
+                android:fontFamily="@font/poppins"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:paddingStart="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                app:cornerRadius="10dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="16dp"
+                android:text="Edit Profile"
+                android:fontFamily="@font/poppins"
+                android:textAllCaps="false"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
