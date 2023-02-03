@@ -75,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:background="@drawable/batuk_flu" />
+            android:background="@drawable/ic_cough" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -108,7 +108,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:background="@drawable/lambung" />
+            android:background="@drawable/ic_pencernaan" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -140,7 +140,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:background="@drawable/vitamin" />
+            android:background="@drawable/ic_vitamin" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -172,7 +172,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:background="@drawable/wajah" />
+            android:background="@drawable/ic_acne" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -204,7 +204,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:background="@drawable/mata" />
+            android:background="@drawable/ic_mata" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -237,7 +237,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="8dp"
-            android:background="@drawable/covid" />
+            android:background="@drawable/ic_covid" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -282,7 +282,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end|top"
-            android:background="@drawable/ambulance" />
+            android:background="@drawable/ic_ambulance" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -321,15 +321,4 @@
 
     </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/poppins"
-        android:text="Rumah Sakit Terdekat"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/card_btn7"
-        app:layout_constraintTop_toBottomOf="@+id/card_btn7" />
 </androidx.constraintlayout.widget.ConstraintLayout>

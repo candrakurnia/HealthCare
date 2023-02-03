@@ -3,16 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_ambulance.xml" value="0.132" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.132" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_batuk.xml" value="0.132" />
+        <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_cough.xml" value="0.132" />
+        <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_covid.xml" value="0.132" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_lambung.xml" value="0.132" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_logo.xml" value="0.132" />
+        <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_mata.xml" value="0.132" />
+        <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/drawable/ic_pencernaan.xml" value="0.132" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_cough.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/fragment_cart.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/fragment_history.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/fragment_home.xml" value="0.2" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="..\:/Users/Candra/AndroidStudioProjects/HealthCare/app/src/main/res/menu/bottom_navbar.xml" value="0.20416666666666666" />
       </map>

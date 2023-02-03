@@ -7,15 +7,33 @@
     android:background="@color/bg_color"
     tools:context="fragment.ProfileFragment">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btm_navbarClr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Profile"
+            android:fontFamily="@font/poppins"
+            android:textSize="21sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/picture"
         android:layout_width="127dp"
         android:layout_height="127dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/picture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/materialToolbar" />
 
     <TextView
         android:id="@+id/tv_editProfile"
