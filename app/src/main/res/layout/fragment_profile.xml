@@ -19,10 +19,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Your Profile"
-            android:fontFamily="@font/poppins"
-            android:textSize="21sp"
-            android:textColor="@color/white"
-            android:textStyle="bold"/>
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
     </com.google.android.material.appbar.MaterialToolbar>
 
     <de.hdodenhof.circleimageview.CircleImageView
