@@ -164,6 +164,7 @@
                 android:layout_marginEnd="16dp"/>
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_profile"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 app:cornerRadius="10dp"
@@ -174,6 +175,19 @@
                 android:fontFamily="@font/poppins"
                 android:textAllCaps="false"
                 android:textSize="16sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_signOut"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/poppins"
+                android:text="Sign Out"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                app:cornerRadius="10dp" />
 
 
         </LinearLayout>

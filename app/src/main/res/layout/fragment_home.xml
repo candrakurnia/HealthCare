@@ -23,8 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="16dp"
-        android:paddingStart="8dp"
         android:fontFamily="@font/poppins"
+        android:paddingStart="8dp"
         android:text="Welcome, James"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,17 +58,21 @@
         app:layout_constraintStart_toStartOf="@+id/profile_pict"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_btn"
         android:layout_width="115dp"
         android:layout_height="140dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:elevation="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/card_btn4"
         app:layout_constraintEnd_toStartOf="@+id/card_btn2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/card_btn2">
+        app:layout_constraintTop_toTopOf="@+id/card_btn2"
+        android:focusable="true">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -81,21 +85,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
+            android:layout_marginBottom="8dp"
             android:fontFamily="@font/poppins"
             android:text="Batuk dan Flu"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:layout_marginBottom="8dp"
             android:textSize="14sp" />
 
 
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_btn2"
         android:layout_width="115dp"
         android:layout_height="140dp"
         android:layout_marginTop="8dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
         android:elevation="5dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
@@ -129,6 +136,9 @@
         android:layout_height="140dp"
         android:layout_marginStart="8dp"
         android:elevation="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
@@ -161,6 +171,9 @@
         android:layout_height="140dp"
         android:layout_marginEnd="8dp"
         android:elevation="5dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toStartOf="@+id/card_btn5"
@@ -194,6 +207,9 @@
         android:layout_marginTop="8dp"
         android:elevation="5dp"
         app:cardBackgroundColor="@color/white"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="@+id/card_btn3"
         app:layout_constraintStart_toStartOf="@+id/card_btn"
@@ -228,6 +244,9 @@
         android:elevation="5dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toEndOf="@+id/card_btn5"
         app:layout_constraintTop_toTopOf="@+id/card_btn5">
@@ -311,6 +330,7 @@
         </LinearLayout>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_pesan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
