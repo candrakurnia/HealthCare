@@ -8,8 +8,10 @@
     tools:context=".ui.CoughActivity">
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_cough"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        tools:listitem="@layout/item_cough"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
